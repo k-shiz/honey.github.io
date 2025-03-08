@@ -415,11 +415,12 @@ footer {
         margin-left: 20px;
     }
 }
-
-@media (max-width: 425px) {
-    .vector {
+@media (max-width: 450px) {
+.vector {
         display: none;
     }
+}
+@media (max-width: 425px) {
     .footer {
         max-width: 415px;
     }
@@ -537,7 +538,7 @@ footer {
     }
     .buy1, .buy2 {
         background-color: rgb(253,246,238);
-        width: 405px;
+        width: 415px;
         height: 305px;
     }
     .our-product-h {
@@ -568,11 +569,11 @@ footer {
         margin-top: 20px;
         max-width: 415px;
         min-width: 415px;
-        min-height: 350px;
+        min-height: 415px;
         margin-left: 0;
     }
     .contacts {
-        width: 350px;
+        width: 360px;
         height: 300px;
         flex-direction: column;
     }
@@ -610,6 +611,9 @@ footer {
     }
     .learn-more-btn {
         margin: 0 auto;
+    }
+    .learn-more {
+        margin-left: 20px;
     }
 }
 
