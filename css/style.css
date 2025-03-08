@@ -672,7 +672,7 @@ footer {
         margin-top: 0;
     }
     .honeyjar__buttons {
-        grid-column: 1/13;
+        grid-column: 5/13;
         grid-row: 6/6;
     }
     .learn-more {
