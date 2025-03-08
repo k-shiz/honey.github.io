@@ -618,14 +618,14 @@ footer {
         margin-left: 0;
     }
     .honeyjar {
-        width: 375px;
+        width: 365px;
         margin-left: 0;
         height: 650px;
         grid-template-rows: repeat(6, 110px);
     }
     body, main {
-        max-width: 375px;
-        min-width: 375px;
+        max-width: 365px;
+        min-width: 365px;
     }
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
         font-size: 50px;
@@ -689,8 +689,8 @@ footer {
     }
     .honey-info, .honey-info1 {
         margin-top: 0;
-        max-width: 375px;
-        min-width: 375px;
+        max-width: 365px;
+        min-width: 365px;
     }
     .container-honey1, .container-honey {
         margin: 0 auto;
@@ -715,14 +715,14 @@ footer {
         font-size: 15px;
     }
     .honey-product {
-        width: 375px;
+        width: 365px;
     }
     .buy-honey {
         flex-direction: column;
     }
     .buy1, .buy2 {
         background-color: rgb(253,246,238);
-        width: 375px;
+        width: 365px;
         height: 305px;
     }
     .our-product-h {
@@ -751,8 +751,8 @@ footer {
     }
     footer {
         margin-top: 20px;
-        max-width: 375px;
-        min-width: 375px;
+        max-width: 365px;
+        min-width: 365px;
         min-height: 350px;
         margin-left: 0;
     }
@@ -782,7 +782,7 @@ footer {
         gap: 20px;
     }
     .contacts-icons {
-        width: 375px;
+        width: 365px;
         height: 1000px;
         flex-direction: column;
     }
@@ -790,8 +790,8 @@ footer {
         height: 3300px;
     }
     html {
-        min-width: 375px;
-        max-width: 375px;
+        min-width: 365px;
+        max-width: 365px;
     }
     .learn-more-btn {
         margin: 0 auto;
