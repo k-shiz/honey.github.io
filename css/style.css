@@ -421,7 +421,7 @@ footer {
         display: none;
     }
     .footer {
-        max-width: 425px;
+        max-width: 415px;
     }
     .container-honey, .container-honey1 {
         margin-right: 80px;
@@ -433,14 +433,14 @@ footer {
         margin-left: 0;
     }
     .honeyjar {
-        width: 425px;
+        width: 415px;
         margin-left: 0;
         height: 650px;
         grid-template-rows: repeat(6, 110px);
     }
     body, main {
-        max-width: 425px;
-        min-width: 425px;
+        max-width: 415px;
+        min-width: 415px;
     }
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
         font-size: 50px;
@@ -504,8 +504,8 @@ footer {
     }
     .honey-info, .honey-info1 {
         margin-top: 0;
-        max-width: 425px;
-        min-width: 425px;
+        max-width: 415px;
+        min-width: 415px;
     }
     .container-honey1, .container-honey {
         margin: 0 auto;
@@ -520,24 +520,24 @@ footer {
         order: 2;
     }
     .info-h1 {
-        font-size: 30px; 
+        font-size: 24px; 
     }
     .info-img2 {
         order: 1
     }
 
     .info-p {
-        font-size: 15px;
+        font-size: 13px;
     }
     .honey-product {
-        width: 425px;
+        width: 415px;
     }
     .buy-honey {
         flex-direction: column;
     }
     .buy1, .buy2 {
         background-color: rgb(253,246,238);
-        width: 425px;
+        width: 405px;
         height: 305px;
     }
     .our-product-h {
@@ -562,12 +562,12 @@ footer {
     
     .product-p {
         margin-bottom: 36px; 
-        font-size: 12px;
+        font-size: 14px;
     }
     footer {
         margin-top: 20px;
-        max-width: 425px;
-        min-width: 425px;
+        max-width: 415px;
+        min-width: 415px;
         min-height: 350px;
         margin-left: 0;
     }
@@ -597,7 +597,7 @@ footer {
         gap: 20px;
     }
     .contacts-icons {
-        width: 425px;
+        width: 415px;
         height: 1000px;
         flex-direction: column;
     }
@@ -605,8 +605,8 @@ footer {
         height: 3300px;
     }
     html {
-        min-width: 425px;
-        max-width: 425px;
+        min-width: 415px;
+        max-width: 415px;
     }
     .learn-more-btn {
         margin: 0 auto;
@@ -618,14 +618,14 @@ footer {
         margin-left: 0;
     }
     .honeyjar {
-        width: 360px;
+        width: 355px;
         margin-left: 0;
-        height: 700px;
+        height: 710px;
         grid-template-rows: repeat(6, 110px);
     }
     body, main {
-        max-width: 360px;
-        min-width: 360px;
+        max-width: 355px;
+        min-width: 355px;
     }
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
         font-size: 50px;
@@ -689,8 +689,8 @@ footer {
     }
     .honey-info, .honey-info1 {
         margin-top: 0;
-        max-width: 360px;
-        min-width: 360px;
+        max-width: 355px;
+        min-width: 355px;
     }
     .container-honey1, .container-honey {
         margin: 0 auto;
@@ -705,24 +705,24 @@ footer {
         order: 2;
     }
     .info-h1 {
-        font-size: 30px; 
+        font-size: 24px; 
     }
     .info-img2 {
         order: 1
     }
 
     .info-p {
-        font-size: 15px;
+        font-size: 13px;
     }
     .honey-product {
-        width: 360px;
+        width: 355px;
     }
     .buy-honey {
         flex-direction: column;
     }
     .buy1, .buy2 {
         background-color: rgb(253,246,238);
-        width: 360px;
+        width: 355px;
         height: 305px;
     }
     .our-product-h {
@@ -747,12 +747,12 @@ footer {
     
     .product-p {
         margin-bottom: 36px; 
-        font-size: 12px;
+        font-size: 14px;
     }
     footer {
         margin-top: 20px;
-        max-width: 360px;
-        min-width: 360px;
+        max-width: 355px;
+        min-width: 355px;
         min-height: 350px;
         margin-left: 0;
     }
@@ -782,7 +782,7 @@ footer {
         gap: 20px;
     }
     .contacts-icons {
-        width: 360px;
+        width: 355px;
         height: 1000px;
         flex-direction: column;
     }
@@ -790,12 +790,16 @@ footer {
         height: 3300px;
     }
     html {
-        min-width: 360px;
-        max-width: 360px;
+        min-width: 355px;
+        max-width: 355px;
     }
     .learn-more-btn {
         margin: 0 auto;
     }
+    .learn-more {
+        margin-top: 20px;
+    }
+}
 }@media (max-width: 320px) {
     .navbar-section {
         max-width: 320px;
