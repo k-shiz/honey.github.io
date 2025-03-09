@@ -457,9 +457,9 @@ footer {
     }
 }
 @media (max-width: 1024px) {
-    .honeyjar, .honey-section, .honey-product, body, main, .navbar1, .honey-info, .honey-info1, html, footer, .honey-shops {
+    .honeyjar, .honey-section, .honey-product, body, main, .navbar1, .honey-info, .honey-info1, html, footer, .honey-shops, .contacts, .contacts-icons {
         max-width: 1014px;
-        min-width: 1014px;
+        min-width: 768px;
     }
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
         font-size: 80px;
@@ -473,10 +473,10 @@ footer {
         margin-left: 0;
     }
     .img1 {
-        max-width: 500px;
+        max-width: 350px;
     }
     .honeyjar__image {
-        grid-column: 7/13;
+        grid-column: 8/13;
         grid-row: 4/6;
     }
     .honeyjar__buttons {
@@ -516,8 +516,25 @@ footer {
         margin-right: 10px;
     }
 }
-
+@media (max-width: 874px) {
+    .footer-social {
+        margin-right: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .honeyjar__image {
+        grid-column: 7/13;
+        grid-row: 2/4;
+    }
+}
 @media (max-width: 768px) {
+    .footer-social {
+        margin-right: 10px;
+        gap: 20px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
     .contacts {
         max-width: 768px;
         min-width: 768px;
@@ -705,7 +722,7 @@ footer {
         margin-top: 20px;
     }
     main {
-        height: 3700px;
+        height: 3800px;
     }
     .learn-more-btn {
         margin: 0 auto;
@@ -736,9 +753,6 @@ footer {
     }
     footer {
         min-height: 400px;
-    }
-    main {
-        height: 3750px;
     }
 }
 @media (max-width: 456px) {
