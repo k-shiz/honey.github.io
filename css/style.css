@@ -50,22 +50,21 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(8, 110px);
-    background-image: url('../img/background.png');
+    background-image:
+        url('../img/Vector.png'),
+        url('../img/background.jpg');
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: 100% auto, cover;
     max-width: 1500px;
     max-height: 865px;
     margin: 0 auto;
-    z-index:0;
-}
-.vector {
-    z-index: 0;
-    position: absolute;
-    opacity: 50%;
+    position: relative;
 }
 .honey-stick {
     position: absolute;
     z-index: 10;
-    left: 0;
-    top: 80px;
+    top: 7%;
 }
 
 .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
@@ -169,7 +168,7 @@ footer {
 .honey-shops {
     margin-top: 143px; 
 }
-.shops-h1 {
+.shops-h2 {
     font-size: 45px;
     margin-left: 60px;
     font-weight: bold;
@@ -200,7 +199,7 @@ footer {
     justify-content: center; 
 }
 
-.info-h1 {
+.info-h2 {
     margin-bottom: 48px; 
     font-size: 45px; 
     line-height: 145%;
@@ -265,7 +264,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.product-h1 {
+.product-h2 {
     margin-bottom: 68px; 
     font-size: 45px; 
     line-height: 145%;
@@ -279,12 +278,12 @@ footer {
 }
 .buy1, .buy2 {
     background-color: rgb(253,246,238);
-    max-height: 305px;
+    max-height: 340px;
     display: flex;
     align-items: center; 
     justify-content: center;
 }
-.product-h1-text {
+.product-h3-text {
     margin-bottom: 20px; 
     font-size: 28px; 
     line-height: 140%;
@@ -375,35 +374,14 @@ footer {
     flex-direction: row;
     gap: 20px;
 }
-@media (max-width: 2000px) {
-    .vector {
-        bottom: 10%; 
-        left: 15%;  
-        width: auto;  
-        height: auto; 
-    }
-    
-}
+
 @media (max-width: 1756px) {
-    .vector {
-        bottom: 10%; 
-        left: 7%;  
-        width: auto;  
-        height: auto; 
-    }
     footer {
         max-width: 1756px;
     }
 }
 @media (max-width: 1628px) {
-    .vector {
-        bottom: 10%; 
-        left: 5%;  
-        width: 70%;  
-        height: auto; 
-    }
     .honeyjar {
-        margin-left: 5%;
         max-width: 1500px;
         min-width: 1430px;
     }
@@ -417,15 +395,8 @@ footer {
     .honeyjar {
         margin-left: 0;
     }
-    .vector {
-        bottom: 10%; 
-        left: 0;
-        margin-right: 15%;
-        width: 70%;  
-        height: auto; 
-    }
     .honeyjar, .honey-section, .honey-product, body, main, .navbar1, .honey-info, .honey-info1, html, footer {
-        max-width: 1430px;
+        max-width: 1440px;
         min-width: 1014px;
     }
     .img1, .honeyjar__image {
@@ -443,6 +414,9 @@ footer {
     }
 }
 @media (max-width: 1200px) {
+    .honey-stick {
+        opacity: 50%;
+    }
     .shop-items {
         margin-top: 70px;
         margin-bottom: 135px;
@@ -466,7 +440,7 @@ footer {
 }
 @media (max-width: 1024px) {
     .honeyjar, .honey-section, .honey-product, body, main, .navbar1, .honey-info, .honey-info1, html, footer, .honey-shops, .contacts, .contacts-icons, footer {
-        max-width: 1014px;
+        max-width: 1024px;
         min-width: 768px;
     }
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
@@ -474,12 +448,7 @@ footer {
         font-weight: 700;
         margin-left: 30px;
     }
-    .vector {
-        bottom: 20%;  
-        max-width: 900px; 
-        margin-right: 15%;
-        margin-left: 0;
-    }
+
     .img1 {
         max-width: 350px;
     }
@@ -530,6 +499,7 @@ footer {
         gap: 20px;
         flex-wrap: wrap;
         flex-direction: column;
+        max-height: 160px;
     }
     .honeyjar__image {
         grid-column: 7/13;
@@ -539,6 +509,7 @@ footer {
 @media (max-width: 768px) {
     .footer-social {
         margin-right: 10px;
+        margin-top: 180px;
         gap: 20px;
         flex-wrap: nowrap;
         flex-direction: row;
@@ -559,12 +530,7 @@ footer {
         max-width: 768px;
         min-width: 768px;
     }
-    .vector {
-        bottom: 30%;  
-        max-width: 728px; 
-        margin-right: 15%;
-        margin-left: 0;
-    }
+
     .honey-stick {
         display: none;
     }
@@ -637,7 +603,7 @@ footer {
         display: flex;
         flex-direction: row;
     }
-    .shops-h1 {
+    .shops-h2 {
         font-size: 45px;
         margin-left: 0;
         font-weight: bold;
@@ -658,7 +624,7 @@ footer {
         grid-column: 1/3;
         order: 2;
     }
-    .info-h1 {
+    .info-h2 {
         font-size: 48px; 
     }
     .info-img2 {
@@ -673,12 +639,12 @@ footer {
     }
     .buy1, .buy2 {
         background-color: rgb(253,246,238);
-        height: 305px;
+        max-height: 305px;
     }
     .our-product-h {
         flex-direction: column;
     }
-    .product-h1 {
+    .product-h2 {
         margin-bottom: 0; 
         font-size: 45px; 
     }
@@ -698,7 +664,7 @@ footer {
     .product-img2 {
         margin-left: 10px;
     }
-    .product-h1-text {
+    .product-h3-text {
         margin-bottom: 20px; 
         font-size: 28px; 
     }
@@ -738,16 +704,19 @@ footer {
         max-width: 768px; 
         min-width: 425px;
     }
+    .footer-text {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
 }
 @media (max-width: 708px) {
     .honeyjar__image {
         display: none;
     }
-    .footer-text {
-        margin-left: 20px;
-        margin-top: 10px;
+    .footer-social {
+        margin-top: 0;
     }
-
 }
 @media (max-width: 570px) {
     .info-img1,.info-img2 {
@@ -760,13 +729,6 @@ footer {
     }
 }
 @media (max-width: 425px) {
-    .vector {
-        display: none;
-    }
-    .honeyjar {
-        height: 330px;
-    }
-
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
         font-size: 50px;
     }
@@ -775,6 +737,9 @@ footer {
     }
     .honeyjar {
         grid-template-rows: repeat(3, 110px);
+        height: 330px;
+        background-image: url('../img/background.jpg');
+        background-size: 300%;
     }
     .honeyjar__image, .img1 {
         display: block;
@@ -811,7 +776,7 @@ footer {
         margin-bottom: 50px;
         height: 300px;
     }
-    .shops-h1 {
+    .shops-h2 {
         font-size: 35px;
         margin-bottom: -35px;
     }
@@ -838,20 +803,20 @@ footer {
         grid-column: 1/3;
         order: 2;
     }
-    .info-h1 {
-        font-size: 24px;
+    .info-h2 {
+        font-size: 40px;
     }
     .info-img2 {
         order: 1;
     }
     .info-p {
-        font-size: 15px;
+        font-size: 25px;
     }
     .buy1, .buy2 {
-        max-height: 305px;
+        max-height: 340px;
         min-height: 273px;
     }
-    .product-h1 {
+    .product-h2 {
         font-size: 35px;
     }
     .product-img1, .product-img2 {
@@ -861,21 +826,18 @@ footer {
     .product-img2 {
         margin-left: 35px;
     }
-    .product-h1-text {
+    .product-h3-text {
         font-size: 24px;
     }
     .product-p {
-        font-size: 14px;
+        margin-bottom: 20px; 
+        font-size: 16px;
     }
     .contacts {
         flex-direction: column;
         margin: 0;
         padding: 10px;
         margin-bottom: 200px;
-    }
-    .footer-text {
-        max-width: 269px;
-        font-size: 14px;
     }
     .contacts {
         flex-direction: column;
@@ -886,7 +848,6 @@ footer {
     .footer-text {
         margin: 0 auto;
         max-width: 269px;
-        font-size: 14px;
         line-height: 160%;
         font-weight: 500;
     }
@@ -913,6 +874,13 @@ footer {
         max-width: 425px; 
         min-width: 375px;
     }
+    .shop-items {
+        margin-left: 30%;
+    }
+    .info-text, .info-text1, .product-h2, .see-all {
+        margin-left: 3%;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -961,9 +929,7 @@ footer {
         max-width: 320px; 
         min-width: 280px;
     }
-    .vector {
-        display: none;
-    }
+
     .honeyjar {
         grid-template-rows: repeat(7, 110px);
     }
@@ -973,7 +939,7 @@ footer {
     .info-img1, .info-img2 {
         margin-left: 0;
     }
-    .info-h1 {
+    .info-h2 {
         font-size: 28px; 
     }
     .info-p {
