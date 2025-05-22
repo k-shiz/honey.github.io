@@ -723,6 +723,9 @@ footer {
     .footer-social {
         margin-top: 0;
     }
+    .honeyjar__buttons {
+        margin: 0 auto;
+    }
 }
 @media (max-width: 570px) {
     .info-img1,.info-img2 {
@@ -736,6 +739,7 @@ footer {
     .shop-items {
         gap: 30px;
     }
+    
 }
 @media (max-width: 425px) {
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
@@ -808,6 +812,7 @@ footer {
     }
     .info-h2 {
         font-size: 40px;
+        margin-bottom: 10px; 
     }
     .info-img2 {
         order: 1;
@@ -884,6 +889,12 @@ footer {
     }
     .info-text, .info-text1, .product-h2, .see-all {
         margin-left: 3%;
+    }
+    .honey-product {
+    margin-bottom: 30px;
+    }
+    .see-all {
+    padding-top: 10px;
     }
 
 }
