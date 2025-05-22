@@ -374,7 +374,13 @@ footer {
     flex-direction: row;
     gap: 20px;
 }
-
+@media (min-width: 3000px) {
+  body, footer, html {
+    max-width: 3000px;
+    min-width: 1756px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 1756px) {
     footer {
         max-width: 1756px;
@@ -727,6 +733,9 @@ footer {
     footer {
         height: 300px;
     }
+    .shop-items {
+        gap: 30px;
+    }
 }
 @media (max-width: 425px) {
     .honeyjar__text1 h1, .honeyjar__text2 h1, .honeyjar__text3 h1 {
@@ -773,21 +782,15 @@ footer {
         grid-row: 3/3;
     }
     .honey-shops {
-        margin-bottom: 50px;
-        height: 300px;
+        margin-bottom: 0;
+        height: 200px;
     }
     .shops-h2 {
         font-size: 35px;
-        margin-bottom: -35px;
-    }
-    .shop-items {
-        margin-top: 70px;
-        margin-bottom: 135px;
-        flex-direction: column;
-        gap: 30px;
+        margin-bottom: -65px;
     }
     .img-shops1 {
-        width: 150px;
+        width: 120px;
         height: auto;
     }
     .honey-info, .honey-info1 {
@@ -875,7 +878,9 @@ footer {
         min-width: 375px;
     }
     .shop-items {
-        margin-left: 30%;
+        margin-left: 10%;
+        margin-top: 90px;
+        gap: 20px;
     }
     .info-text, .info-text1, .product-h2, .see-all {
         margin-left: 3%;
