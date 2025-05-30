@@ -498,6 +498,9 @@ footer {
     .footer-text {
         margin-right: 10px;
     }
+    .info-text1, .info-text, .product-h2, .see-all {
+        padding: 1%;
+    }
 }
 @media (max-width: 874px) {
     .footer-social {
